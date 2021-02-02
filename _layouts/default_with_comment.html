@@ -39,6 +39,8 @@
     <main id="content" class="main-content" role="main">
       {{ content }}
 
+      <div id="gitalk-container">
+      </div>
       <footer class="site-footer">
         {% if site.github.is_project_page %}
           <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
@@ -47,8 +49,6 @@
       </footer>
     </main>
     
-    <div id="gitalk-container">
-    </div>
     <script>
       var gitalk = new Gitalk({
         clientID: '1322af8bb28c28d77d11',
