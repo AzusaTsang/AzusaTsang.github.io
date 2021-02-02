@@ -19,7 +19,7 @@ pip install selenium
 
 - Then use Selenium and [the Chromdrive](https://chromedriver.chromium.org/) (or any other web browser Selenium supports) to open the Pocket page.
 
-```Python
+```python
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
@@ -33,14 +33,14 @@ driver.get('https://app.getpocket.com')
 
 - After logging in, get the article list. The article links are at xpath `//article/a`. If a website can be transformed into an article by Pocket, the article link will starts with `https://getpocket.com/read/`.
 
-```Python
+```python
 articles=[href for a in driver.find_elements_by_xpath('//article/a') 
           if (href:=a.get_attribute('href')).startswith('https://getpocket.com/read/')]
 ```
 
 - Then we can get in each link to get the article texts. Here I use implicit wait to wait the webpages get loaded.
 
-```Python
+```python
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -57,7 +57,7 @@ After your first log in, you can just combine all the codes together and let it 
 
 ## Full Code
 
-```Python
+```python
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
