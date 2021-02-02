@@ -1,6 +1,6 @@
 ---
 title: Use Selenium and Pocket to scrap articles on websites automatically and accurately
-layout: default
+layout: default_with_comment
 ---
 
 ## Intro
