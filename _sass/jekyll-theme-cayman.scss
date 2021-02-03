@@ -39,6 +39,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: $body-text-color;
+  letter-spacing: 0px;
+  word-spacing: 0px;
 }
 
 #skip-to-content {
@@ -231,6 +233,8 @@ a {
     color: $code-text-color;
     background-color: $code-bg-color;
     border-radius: 0.3rem;
+    word-spacing: normal;
+    letter-spacing: normal;
   }
 
   pre {
@@ -243,6 +247,8 @@ a {
     background-color: $code-bg-color;
     border: solid 1px $border-color;
     border-radius: 0.3rem;
+    word-spacing: normal;
+    letter-spacing: normal;
 
     > code {
       padding: 0;

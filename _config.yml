@@ -1,3 +1,4 @@
 theme: jekyll-theme-cayman
 google_analytics: G-2KFRZ0YXBY
 highlighter: rouge
+markdown: kramdown
