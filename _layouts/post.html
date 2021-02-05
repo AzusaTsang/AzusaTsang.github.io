@@ -11,6 +11,19 @@
         gtag('config', '{{ site.google_analytics }}');
       </script>
     {% endif %}
+
+    {% if page.latex %}
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+            inlineMath: [['$','$']]
+            }
+        });
+    </script>
+    {% endif %}
+
     <meta charset="UTF-8">
     <link rel="stylesheet" href="/gitalk/dist/gitalk.css">
     <script src="/gitalk/dist/gitalk.min.js"></script>
