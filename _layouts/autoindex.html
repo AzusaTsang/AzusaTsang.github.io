@@ -42,7 +42,9 @@
       <ul>
         <li>
           <h3>
-            {% if post.outurl %}
+            {% if post.lang=="teyvat" %}
+              <a href="{{ post.url }}" style="font-family: teyvat, hanyiwenhei;">{{ post.title | markdownify  }}</a>
+            {% elsif post.outurl %}
               <a href="{{ post.outurl }}">{{ post.title | markdownify }}</a>
             {% elsif post.title-with-url %}
               <p>{{ post.title-with-url | markdownify }}</p>

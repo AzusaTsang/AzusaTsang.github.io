@@ -32,6 +32,17 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "teyvat";
+  src:url("/Teyvat-Regular.ttf") format("truetype");        
+  font-weight: normal;
+  font-style: normal;
+}
+
+:lang(teyvat) {
+  font-family: "teyvat", "hanyiwenhei";
+}
+
 body {
   padding: 0;
   margin: 0;
