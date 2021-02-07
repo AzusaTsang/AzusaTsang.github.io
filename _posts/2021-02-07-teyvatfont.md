@@ -1,33 +1,32 @@
 ---
 lang: teyvat
-title: teyvat font and ABYSSOS FONT
+title: Teyvat Language and <span lang="khaenriah">Khaenriah Language</span>
 layout: post
 ---
 
-<p style="font-size: 150%">
-i dont know why i made this
+There are many different languages in Teyvat. Most of them based on real-world languages
+
+These fonts are made with [Calligraphr](https://www.calligraphr.com/)
+
+## Teyvat Language
+
+[Font download link](https://github.com/AzusaTsang/AzusaTsang.github.io/raw/master/Teyvat-Regular.ttf)
+
+It's the written language used by all the nations of Teyvat to communicate with each other, much like English is in the real world. The letters are seemingly inspired upside-down mirrored Latin letters—although not all. Apparently, unlike English, there is no capitalization nor punctuation.
+
+<article lang="khaenriah">
+
+<h2 style="font-size: 160%;"> Khaenriah Language </h2>
+
+<a href="https://github.com/AzusaTsang/AzusaTsang.github.io/raw/master/Khaenriah-Regular.ttf">Font download link</a>
+<p>
+This language can be found in Domains, locked chests (ones with red circles around them), and certain Investigation points. Like the common written language, it's based on Latin letters, but unlike the common one, the words and grammar are actually based on Classical Latin. Although there is no capitalization, there is punctuation.
 <br>
- i just think this is cool
-</p>
-i used [calligraphr](https://www.calligraphr.com/) to made this font
-
-## [download link](https://github.com/AzusaTsang/AzusaTsang.github.io/raw/master/Teyvat-Regular.ttf)
-
-## teyvat font - lower case letter
-
-<p style="font-size: 150%">
-a b c d e f g h i j k l m
+The phrases seen in Domains currently have unknown meaning and do not translate into any intelligible Latin phrases. Ones at Investigation points have the following words inscribed: "fortunae," "sine," "mixture," and "ingenium," in no particular order.
 <br>
-n o p q r s t u v w x y z
+The unknown language can also be seen in the Teyvat Chapter Storyline Preview, used to write Latin phrases for each nation's story theme. Since Dainsleif is the narrator and he is from Khaenri'ah, the unknown language may be Khaenri'ah's written language.
 </p>
-
-## ABYSSOS FONT - UPPER CASE LETTER
-
-<p style="font-size: 170%">
-A B C D E F G H I J K L M
-<br>
-N O P Q R S T U V W X Y Z
-</p>
+</article>
 
 ## reference
 

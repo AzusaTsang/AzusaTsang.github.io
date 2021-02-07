@@ -39,8 +39,25 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "khaenriah";
+  src:url("/Khaenriah-Regular.ttf") format("truetype");        
+  font-weight: normal;
+  font-style: normal;
+}
+
 :lang(teyvat) {
   font-family: "teyvat", "hanyiwenhei";
+  font-weight: normal;
+  letter-spacing: -1px;
+  word-spacing: 2px;
+}
+
+:lang(khaenriah) {
+  font-family: "khaenriah", "hanyiwenhei";
+  font-weight: normal;
+  font-size: 115%;
+  word-spacing: 2px;
 }
 
 body {
