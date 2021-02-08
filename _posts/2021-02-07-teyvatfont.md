@@ -112,6 +112,7 @@ The unknown language can also be seen in the Teyvat Chapter Storyline Preview, u
 |Spiral Abyss|<span lang="khaenriah">Abyssus obscura</span>|Dark Abyss|
 |Magical Circle|<span lang="khaenriah">Ex culmine lucis in magno elementorum</span>|From the peak of light to the large of elements|
 |Locked Chests|<span lang="khaenriah">Ad virtutem</span>|To courage|
+|Katheryne|<span lang="khaenriah"> Ad astra abyssosque</span><br><del>Add extra apple sauce</del>|To stars and abyss|
 
 ## reference
 
