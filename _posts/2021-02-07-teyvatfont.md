@@ -79,9 +79,10 @@ The <span style="color: crimson">red</span> texts are [Caesar cipher](https://en
     </tr>
   </tbody>
 </table>
-The <span style="color: blue">blue</span> text is the key information of the Abyss Order's attack time and location. So it has a deeper encrypting. The plain text is <span style="color: blue">Front gate at Ten</span>. The encrypting step is
 
-- Left shift of 10, hence <span style="color: blue">VHEDJWQJUQJJUD</span>
+The <span style="color: blue">blue</span> text is the key information of the Abyss Order's attack time and location. So it has a deeper encrypting. The plain text is **<span style="color: blue">Front gate at Ten</span>**. The encrypting step is
+
+- Left shift of 10, hence **<span style="color: blue">VHEDJWQJUQJJUD</span>**
 
 - Number these 14 letters starting with 1
 
@@ -89,7 +90,7 @@ The <span style="color: blue">blue</span> text is the key information of the Aby
 
 - Replace letters at even postions with letters at position $7-\frac{n}{2}$
 
-- Hence the cipher <span style="color: blue">UJUQJEVHDWJQJD</span>.
+- Hence the cipher **<span style="color: blue">UJUQJEVHDWJQJD</span>**.
 
 <article lang="khaenriah">
 

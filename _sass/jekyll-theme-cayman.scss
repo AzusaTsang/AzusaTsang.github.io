@@ -34,28 +34,24 @@
 
 @font-face {
   font-family: "teyvat";
-  src:url("/Teyvat-Regular.ttf") format("truetype");        
-  font-weight: normal;
-  font-style: normal;
+  src:url("/Teyvat-Regular.ttf") format("truetype");      
 }
 
 @font-face {
   font-family: "khaenriah";
-  src:url("/Khaenriah-Regular.ttf") format("truetype");        
-  font-weight: normal;
-  font-style: normal;
+  src:url("/Khaenriah-Regular.ttf") format("truetype");      
 }
 
 :lang(teyvat) {
   font-family: "teyvat", "hanyiwenhei";
-  font-weight: normal;
+  // font-weight: normal, bold;
   letter-spacing: -1px;
   word-spacing: 2px;
 }
 
 :lang(khaenriah) {
   font-family: "khaenriah", "hanyiwenhei";
-  font-weight: normal;
+  // font-weight: normal, bold;
   font-size: 115%;
   word-spacing: 2px;
 }
@@ -162,6 +158,7 @@ a {
 }
 
 .project-name {
+  font-weight: normal;
   margin-top: 0;
   margin-bottom: 0.1rem;
 
