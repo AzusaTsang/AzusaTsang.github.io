@@ -1,6 +1,6 @@
 ---
 lang: zh
-title: 4 月 18 号后在 Chrome 上使用 New Bing \n Using New Bing in Chrome after April 18th
+title: 4 月 18 号后在 Chrome 上使用 New Bing <br> Using New Bing in Chrome after April 18th
 layout: post
 ---
 
